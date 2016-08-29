@@ -52,8 +52,15 @@ class Queue(object):
             >>> q.length()
             3
         """
+   
+        self._list += 1
+        node = Node(item)
 
-        # FIXME
+        if self._tail:
+            self._tail.next = node
+            self._tail = node
+        else:
+            self._head = self._tail = node
 
         
 
@@ -74,7 +81,7 @@ class Queue(object):
 
         # FIXME
 
-        pass
+        return self._list[0]
 
 if __name__ == "__main__":
     import doctest
