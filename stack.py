@@ -95,9 +95,12 @@ class Stack(object):
             >>> s.length()
             0
         """
-
         self._list = []
 
+#### I don't understand the right way to do this. I would think i would return an empty list?
+ #my doctest fail so i returned none and it passed?
+
+        return None
 
     def is_empty(self):
         """Is stack empty?
@@ -117,7 +120,7 @@ class Stack(object):
 
         # FIXME
 
-        return bool(self._list)
+        return not bool(self._list)
 
 if __name__ == "__main__":
     import doctest
