@@ -1,0 +1,41 @@
+Part 1: Discussion Questions
+
+Runtime
+
+To figure out workload for determining if my box of animal crackers contained an elephant would be for me to look at every animal cracker in the box, one by one, until I found an elephant or ran out of crackers. The workload would be O(n).
+
+2) In ascending order of n reaching infinity:
+    O(1)
+    O(logn)
+    O(n)
+    O(nlogn)
+    O(n^2)
+    O(2^n)
+
+Stacks and Queues
+
+Stack
+    a) stack
+    b)queue
+    c)stack
+2)
+    a)Standing in line
+    b)In selling perishable foods.  Get the date that will expire sold faster
+3)
+    a) Washing dishes.  the last dish placed rather than the first
+    b)have a pile of papers to file.  pick the one on the top rather than sort through to find the  first one placed
+
+Linked Lists
+
+1)There are 3 nodes, “apple”, “berry”, “cherry”. The data for each node is a string (“apple”, “berry”, “cherry”) and the reference next each node points to. The tail is not listed. If there was a tail then the LLIST would have a tail attribute and point to the last node.
+
+2)Doubly linked lists point to a prev node as well as pointing to a next node. Singly linked lists only point to next.
+
+3)It is faster to keep track of the tail because to append you can go straight to the tail and append rather than start at the head and follow the nodes until you reach the node pointing to none.
+
+Trees
+
+1)Food-italian-indian-mexican-lasagna-pizza-tikka masala-saag-burrito
+
+2)Food-italian-indian-mexican-burrito-tacos-enchiladas-tikka masala-saag-lasagna-pizza-thin crust-chicago style
+3) A binary search has one or two children and there is order. highest on left or highest on right and it keeps in that order for the whole tree. It is very easy to search and has a runtime of O(logn)
